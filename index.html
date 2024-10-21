@@ -1,9 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./font.css">
+    <style>
+        body{
+            /* background-color:  	#222222; */
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display:flex;
+            flex-direction: column;
+            margin:0px;
+            padding: 0px;
+            background-image: url(./images/chessbg.png);
+        }
+        .header{
+            /* border : 1px solid white; */
+            background-color: #5896f9;
+            display: flex;
+            justify-content: end;
+            flex-wrap: wrap;
+            position:sticky;
+        }
+        .left{
+            /* border: 1px solid white; */
+            margin-right: auto;
+        }
+        .right{
+            /* border: 1px solid white; */
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .navItem{
+            padding: 15px 20px;
+            /* border:1px solid white; */
+            flex-grow: 1;
+        }
+        .nav4{
+            background-color: rgb(241, 64, 64);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .footer{
+            height: 50px;
+            background-color: #5896f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
+    <div class="header">
+        <div class="left"><img src="http://via.placeholder.com/150x50" alt="logo"></div>
+        <div class="right">
+            <a href="#!" class="navItem nav1">Home</a>
+            <a href="#!" class="navItem nav2">News</a>
+            <a href="#!" class="navItem nav3">Learn Chess</a>
+            <a href="#!" class="navItem nav4">Contact Us</a>
+        </div>
+    </div>
 
+    <br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="footer">
+        <h5>&copy;Mannu Singh 2024</h5>
+    </div>
 </body>
 </html>
